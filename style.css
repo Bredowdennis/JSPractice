@@ -1,0 +1,104 @@
+body{
+    font-family: Helvetica;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.weatherForm{
+    margin: 5px;
+}
+
+.cityInput{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    color:hsla(0, 0%, 0%, 0.447);
+}
+
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover
+{
+    background-color: rgba(7, 180, 7, 0.843);
+}
+
+.card{
+    background: linear-gradient(180deg, hsl(210, 100%, 75%),  hsl(40, 100%, 75%));
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, .5);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+h2{
+    color: gray;
+    font-size: 3rem;
+    padding-bottom: 0;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.cityDisplay, .tempDisplay{
+    font-size: 4rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, .75);
+    margin-bottom: 20px;
+    color: white;
+}
+
+.humidityDisplay{
+    margin: 0;
+}
+
+.descDisplay{
+    font-style: italic;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.weatherEmoji{
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.errorDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+}
+
+.highLow{
+    margin-top: 5px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
